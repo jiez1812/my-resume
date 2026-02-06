@@ -5,7 +5,7 @@ export function PrintButton() {
     <button
       onClick={() => window.print()}
       aria-label="Download PDF"
-      className="fixed bottom-6 right-6 z-50 flex items-center gap-2 rounded-full bg-accent px-5 py-3 text-sm font-medium text-white shadow-lg transition-all duration-200 hover:-translate-y-0.5 hover:shadow-xl print:hidden"
+      className="fixed bottom-6 right-6 z-50 hidden items-center gap-2 rounded-full bg-accent px-5 py-3 text-sm font-medium text-white shadow-lg transition-all duration-200 hover:-translate-y-0.5 hover:shadow-xl md:flex print:hidden"
     >
       <svg
         className="h-4 w-4"
