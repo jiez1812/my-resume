@@ -1,0 +1,163 @@
+{
+  "basics": {
+    "name": "Tee Wei Jie",
+    "label": "Hybrid IT Professional & Full Stack Developer",
+    "email": "jieztee@gmail.com",
+    "phone": "",
+    "url": "",
+    "summary": "Versatile IT Professional with over 8 years of experience bridging IT Infrastructure and Software Development. Proven track record in managing Windows Server environments and Active Directory, while successfully transitioning to Full Stack Development roles. Experienced in developing and deploying internal applications using C# (.NET), Python, and Next.js.",
+    "location": {
+      "city": "Singapore",
+      "countryCode": "SG",
+      "region": "Singapore"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Tee Wei Jie",
+        "url": "[https://www.linkedin.com/in/your-profile-url-here](https://www.linkedin.com/in/your-profile-url-here)"
+      },
+      {
+        "network": "GitHub",
+        "username": "jiez1812",
+        "url": "[https://github.com/jiez1812](https://github.com/jiez1812)"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Bibi&Baba Private Limited",
+      "position": "IT Development Officer",
+      "url": "",
+      "startDate": "2022-10-01",
+      "endDate": "Present",
+      "summary": "Transitioned from infrastructure support to software development, focusing on internal tools, automation, and digital transformation.",
+      "highlights": [
+        "Developed and maintained internal web applications using C# and ASP.NET, improving data processing efficiency for HR and Logistics departments.",
+        "Deployed and managed web services on IIS (Internet Information Services), ensuring 99.9% availability for company portals.",
+        "Collaborated with stakeholders to gather requirements and perform Software Development Life Cycle (SDLC) tasks including coding, testing, and debugging.",
+        "Modernized legacy workflows by introducing Python scripts for data automation, reducing manual entry errors by approximately 30%.",
+        "Provided Level 2/3 application support, resolving critical bugs and performing root cause analysis (RCA) to prevent recurrence."
+      ]
+    },
+    {
+      "name": "Bibi&Baba Private Limited",
+      "position": "IT Assistant",
+      "url": "",
+      "startDate": "2015-09-01",
+      "endDate": "2022-10-01",
+      "summary": "Managed core IT infrastructure, asset management, and provided comprehensive end-user technical support.",
+      "highlights": [
+        "Managed IT infrastructure including Windows Server, Active Directory, and DNS/DHCP configurations for the organization.",
+        "Administered IT Asset Management lifecycles, from procurement to decommissioning, ensuring 100% inventory accuracy.",
+        "Delivered comprehensive technical support (Hardware, Software, Network) to end-users, consistently achieving high user satisfaction ratings.",
+        "Assisted in the implementation of network security policies and routine server backups."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Coventry University (PSB Academy)",
+      "url": "[https://www.coventry.ac.uk/](https://www.coventry.ac.uk/)",
+      "area": "Computing Science",
+      "studyType": "Bachelor of Science (Honours)",
+      "startDate": "2022-07-01",
+      "endDate": "2023-11-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Southern University College, Malaysia",
+      "url": "[https://www.southern.edu.my/](https://www.southern.edu.my/)",
+      "area": "Computer Science",
+      "studyType": "Diploma",
+      "startDate": "2011-08-01",
+      "endDate": "2014-12-01",
+      "score": "",
+      "courses": [
+        "Vice Secretary, Student Society of Computer Science (2012)"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Backend Development",
+      "level": "Proficient",
+      "keywords": [
+        "C# (.NET)",
+        "Python",
+        "FastAPI",
+        "ASP.NET",
+        "RESTful APIs"
+      ]
+    },
+    {
+      "name": "Frontend Development",
+      "level": "Competent",
+      "keywords": [
+        "JavaScript",
+        "Next.js",
+        "HTML5",
+        "CSS3",
+        "React"
+      ]
+    },
+    {
+      "name": "Infrastructure & Cloud",
+      "level": "Advanced",
+      "keywords": [
+        "Windows Server",
+        "Active Directory",
+        "IIS",
+        "Azure Fundamentals",
+        "Docker (Basic)",
+        "Git (Gitea)"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "Competent",
+      "keywords": [
+        "SQL",
+        "PostgreSQL",
+        "MSSQL"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Hospital Uniform Ordering System",
+      "startDate": "2022-01-01",
+      "endDate": "2022-12-01",
+      "description": "Academic Project. A full-stack web application designed to streamline the uniform procurement process for hospital staff.",
+      "highlights": [
+        "Designed and built a complete web-based ordering system using Python (Flask) and SQL.",
+        "Implemented secure user authentication, real-time inventory tracking, and order history features.",
+        "Managed the full deployment cycle from local development to production demonstration."
+      ],
+      "url": ""
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Microsoft Certified: Azure Fundamentals (AZ-900)",
+      "date": "2022-04-08",
+      "issuer": "Microsoft",
+      "url": "[https://learn.microsoft.com/api/credentials/share/en-us/](https://learn.microsoft.com/api/credentials/share/en-us/)..."
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Professional Proficiency"
+    },
+    {
+      "language": "Chinese",
+      "fluency": "Native"
+    },
+    {
+      "language": "Malay",
+      "fluency": "Conversational"
+    }
+  ]
+}
