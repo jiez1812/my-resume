@@ -1,5 +1,6 @@
 import type { WorkExperience } from "@/app/types/resume";
 import { formatDate } from "@/app/lib/formatDate";
+import { parseMarkdown } from "@/app/lib/parseMarkdown";
 
 interface TimelineItemProps {
   job: WorkExperience;
@@ -39,7 +40,7 @@ export function TimelineItem({ job }: TimelineItemProps) {
                 className="flex items-start gap-2 text-sm text-foreground/80"
               >
                 <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent/50" />
-                {highlight}
+                <span dangerouslySetInnerHTML={{ __html: parseMarkdown(highlight) }} />
               </li>
             ))}
           </ul>

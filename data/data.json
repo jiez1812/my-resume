@@ -15,12 +15,12 @@
       {
         "network": "LinkedIn",
         "username": "Tee Wei Jie",
-        "url": "[https://www.linkedin.com/in/your-profile-url-here](https://www.linkedin.com/in/your-profile-url-here)"
+        "url": "https://www.linkedin.com/in/tee-wei-jie-168156120/"
       },
       {
         "network": "GitHub",
         "username": "jiez1812",
-        "url": "[https://github.com/jiez1812](https://github.com/jiez1812)"
+        "url": "https://github.com/jiez1812"
       }
     ]
   },
@@ -31,34 +31,47 @@
       "url": "",
       "startDate": "2022-10-01",
       "endDate": "Present",
-      "summary": "Transitioned from infrastructure support to software development, focusing on internal tools, automation, and digital transformation.",
+      "summary": "Promoted to a development-focused role to lead the company's digital transformation initiatives.",
       "highlights": [
-        "Developed and maintained internal web applications using C# and ASP.NET, improving data processing efficiency for HR and Logistics departments.",
-        "Deployed and managed web services on IIS (Internet Information Services), ensuring 99.9% availability for company portals.",
-        "Collaborated with stakeholders to gather requirements and perform Software Development Life Cycle (SDLC) tasks including coding, testing, and debugging.",
-        "Modernized legacy workflows by introducing Python scripts for data automation, reducing manual entry errors by approximately 30%.",
-        "Provided Level 2/3 application support, resolving critical bugs and performing root cause analysis (RCA) to prevent recurrence."
+        "**Key Achievement:** Engineered the company's internal software from scratch using C#/.NET, replacing legacy manual processes.",
+        "Transitioned fully into Full Stack Development, successfully deploying Next.js applications to production environments.",
+        "Managed the full lifecycle of internal web portals hosted on IIS, ensuring high availability.",
+        "Collaborated with stakeholders to gather requirements and perform SDLC tasks including coding, testing, and debugging."
       ]
     },
     {
       "name": "Bibi&Baba Private Limited",
-      "position": "IT Assistant",
+      "position": "IT Assistant (Infrastructure Focus)",
+      "url": "",
+      "startDate": "2021-01-01",
+      "endDate": "2022-10-01",
+      "summary": "Expanded responsibilities to include core infrastructure management, preparing for the transition to a developer role.",
+      "highlights": [
+        "**Strategic Shift:** Took ownership of Windows Server Administration and Active Directory management one year prior to official promotion.",
+        "Gained hands-on experience with server-side troubleshooting, DNS, and DHCP configurations.",
+        "Acted as the bridge between hardware infrastructure and software requirements.",
+        "Continued to refine automation scripts, paving the way for more complex software development tasks."
+      ]
+    },
+    {
+      "name": "Bibi&Baba Private Limited",
+      "position": "IT Assistant (Support & Automation)",
       "url": "",
       "startDate": "2015-09-01",
-      "endDate": "2022-10-01",
-      "summary": "Managed core IT infrastructure, asset management, and provided comprehensive end-user technical support.",
+      "endDate": "2020-12-31",
+      "summary": "Delivered comprehensive technical support while proactively introducing automation to daily workflows.",
       "highlights": [
-        "Managed IT infrastructure including Windows Server, Active Directory, and DNS/DHCP configurations for the organization.",
-        "Administered IT Asset Management lifecycles, from procurement to decommissioning, ensuring 100% inventory accuracy.",
-        "Delivered comprehensive technical support (Hardware, Software, Network) to end-users, consistently achieving high user satisfaction ratings.",
-        "Assisted in the implementation of network security policies and routine server backups."
+        "**Early Innovation:** Leveraged Python scripting from day one to automate repetitive administrative tasks, significantly increasing personal efficiency.",
+        "Provided comprehensive hardware and software support for internal staff, resolving 95% of tickets within SLA.",
+        "Maintained documentation for IT inventory and daily operational logs.",
+        "Built a reputation for technical problem-solving, which eventually led to expanded infrastructure responsibilities."
       ]
     }
   ],
   "education": [
     {
       "institution": "Coventry University (PSB Academy)",
-      "url": "[https://www.coventry.ac.uk/](https://www.coventry.ac.uk/)",
+      "url": "https://www.coventry.ac.uk/",
       "area": "Computing Science",
       "studyType": "Bachelor of Science (Honours)",
       "startDate": "2022-07-01",
@@ -68,7 +81,7 @@
     },
     {
       "institution": "Southern University College, Malaysia",
-      "url": "[https://www.southern.edu.my/](https://www.southern.edu.my/)",
+      "url": "https://www.southern.edu.my/",
       "area": "Computer Science",
       "studyType": "Diploma",
       "startDate": "2011-08-01",
@@ -143,7 +156,7 @@
       "name": "Microsoft Certified: Azure Fundamentals (AZ-900)",
       "date": "2022-04-08",
       "issuer": "Microsoft",
-      "url": "[https://learn.microsoft.com/api/credentials/share/en-us/](https://learn.microsoft.com/api/credentials/share/en-us/)..."
+      "url": "https://learn.microsoft.com/api/credentials/share/en-us/"
     }
   ],
   "languages": [

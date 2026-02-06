@@ -1,5 +1,6 @@
 import type { ResumeData } from "@/app/types/resume";
 import { formatDate } from "@/app/lib/formatDate";
+import { parseMarkdown } from "@/app/lib/parseMarkdown";
 
 interface PrintResumeProps {
   data: ResumeData;
@@ -77,7 +78,7 @@ export function PrintResume({ data }: PrintResumeProps) {
               {job.highlights.length > 0 && (
                 <ul className="print-job-highlights">
                   {job.highlights.map((h, idx) => (
-                    <li key={idx}>{h}</li>
+                    <li key={idx} dangerouslySetInnerHTML={{ __html: parseMarkdown(h) }} />
                   ))}
                 </ul>
               )}
@@ -105,7 +106,7 @@ export function PrintResume({ data }: PrintResumeProps) {
               {project.highlights.length > 0 && (
                 <ul className="print-job-highlights">
                   {project.highlights.map((h, idx) => (
-                    <li key={idx}>{h}</li>
+                    <li key={idx} dangerouslySetInnerHTML={{ __html: parseMarkdown(h) }} />
                   ))}
                 </ul>
               )}
