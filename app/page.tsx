@@ -2,6 +2,7 @@ import resumeData from "@/data/data.json";
 import type { ResumeData } from "@/app/types/resume";
 import { Navbar } from "@/app/components/Navbar";
 import { HeroSection } from "@/app/components/HeroSection";
+import { HeroCompactBar } from "@/app/components/HeroCompactBar";
 import { ScrollReveal } from "@/app/components/ScrollReveal";
 import { SectionHeading } from "@/app/components/SectionHeading";
 import { SkillsSection } from "@/app/components/SkillsSection";
@@ -36,6 +37,7 @@ export default function Home() {
       {/* Website UI (hidden when printing) */}
       <div className="screen-only min-h-screen bg-background">
         <Navbar name="Resume" sectionIds={SECTION_IDS} />
+        <HeroCompactBar basics={basics} />
 
         <HeroSection basics={basics} />
 
