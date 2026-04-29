@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Tee Wei Jie",
-    "label": "Hybrid IT Professional & Full Stack Developer",
+    "label": "IT Development Officer | Internal Tools & Data Automation",
     "email": "jieztee@gmail.com",
     "phone": "",
     "url": "",
-    "summary": "Versatile IT Professional with over 8 years of experience bridging IT Infrastructure and Software Development. Proven track record in managing Windows Server environments and Active Directory, while successfully transitioning to Full Stack Development roles. Experienced in developing and deploying internal applications using C# (.NET), Python, and Next.js.",
+    "summary": "IT professional in a manufacturing environment with over 8 years of experience supporting office operations, infrastructure, and internal workflow improvement. Uses programming as a practical tool to automate repetitive tasks, analyze data, import business data, and build small internal applications that help office staff work more efficiently. Experienced with Windows Server, Active Directory, C#/.NET, Python, SQL, IIS, and Next.js.",
     "location": {
       "city": "Singapore",
       "countryCode": "SG",
@@ -31,12 +31,13 @@
       "url": "",
       "startDate": "2022-10-01",
       "endDate": "Present",
-      "summary": "Promoted to a development-focused role to lead the company's digital transformation initiatives.",
+      "summary": "Supports the IT needs of a manufacturing office environment while building practical internal tools that simplify daily administrative and operational work.",
       "highlights": [
-        "**Key Achievement:** Engineered the company's internal software from scratch using C#/.NET, replacing legacy manual processes.",
-        "Transitioned fully into Full Stack Development, successfully deploying Next.js applications to production environments.",
-        "Managed the full lifecycle of internal web portals hosted on IIS, ensuring high availability.",
-        "Collaborated with stakeholders to gather requirements and perform SDLC tasks including coding, testing, and debugging."
+        "**Key Achievement:** Built internal tools to automate repetitive data import and checking tasks, reducing manual work for office staff.",
+        "Created data analysis utilities that helped office users review business information more quickly and consistently.",
+        "Standardized recurring spreadsheet-based workflows by converting them into reusable scripts and small applications.",
+        "Supported office staff by turning manual data preparation tasks into guided tools with validation and clearer output.",
+        "Maintained internal applications used for daily data lookup, reporting, and administrative workflows."
       ]
     },
     {
@@ -94,59 +95,98 @@
   ],
   "skills": [
     {
-      "name": "Backend Development",
+      "name": "Internal Tools & Automation",
       "level": "Proficient",
       "keywords": [
         "C# (.NET)",
-        "Python",
-        "FastAPI",
-        "ASP.NET",
-        "RESTful APIs"
+        "Python Scripting",
+        "Spreadsheet Automation",
+        "Data Import Workflows",
+        "Process Improvement"
       ]
     },
     {
-      "name": "Frontend Development",
+      "name": "Web Applications",
       "level": "Competent",
       "keywords": [
-        "JavaScript",
         "Next.js",
-        "HTML5",
-        "CSS3",
-        "React"
+        "React",
+        "JavaScript",
+        "HTML/CSS",
+        "Internal Portals"
       ]
     },
     {
-      "name": "Infrastructure & Cloud",
+      "name": "Infrastructure & Systems",
       "level": "Advanced",
       "keywords": [
         "Windows Server",
         "Active Directory",
         "IIS",
-        "Azure Fundamentals",
-        "Docker (Basic)",
-        "Git (Gitea)"
+        "DNS/DHCP",
+        "User Support",
+        "Hardware Support"
       ]
     },
     {
-      "name": "Databases",
+      "name": "Data & Databases",
       "level": "Competent",
       "keywords": [
         "SQL",
+        "SQL Server",
         "PostgreSQL",
-        "MSSQL"
+        "Data Validation",
+        "Reporting Queries"
+      ]
+    },
+    {
+      "name": "Development Workflow",
+      "level": "Competent",
+      "keywords": [
+        "Git",
+        "Gitea",
+        "Testing & Debugging",
+        "Requirements Gathering",
+        "IIS Deployment",
+        "Azure Fundamentals",
+        "Docker Basics"
       ]
     }
   ],
   "projects": [
     {
-      "name": "Hospital Uniform Ordering System",
-      "startDate": "2022-01-01",
-      "endDate": "2022-12-01",
-      "description": "Academic Project. A full-stack web application designed to streamline the uniform procurement process for hospital staff.",
+      "name": "Internal Data Import Utility",
+      "startDate": "2023-01-01",
+      "endDate": "Present",
+      "description": "Internal tool built to help office staff import, validate, and prepare business data more consistently.",
       "highlights": [
-        "Designed and built a complete web-based ordering system using Python (Flask) and SQL.",
-        "Implemented secure user authentication, real-time inventory tracking, and order history features.",
-        "Managed the full deployment cycle from local development to production demonstration."
+        "Converted repeated spreadsheet import steps into a guided workflow with clearer validation and output.",
+        "Helped users identify missing, duplicated, or incorrectly formatted data before submission.",
+        "Reduced reliance on manual checking by standardizing common import rules."
+      ],
+      "url": ""
+    },
+    {
+      "name": "Internal Web Portal",
+      "startDate": "2023-01-01",
+      "endDate": "Present",
+      "description": "Internal web application used by office staff for data lookup, reporting, and administrative workflows.",
+      "highlights": [
+        "Built user-facing pages for common office tasks using Next.js and backend services.",
+        "Hosted and maintained the application on IIS for internal company use.",
+        "Improved access to business data by presenting information through a simpler web interface."
+      ],
+      "url": ""
+    },
+    {
+      "name": "Resume Web App",
+      "startDate": "2026-02-01",
+      "endDate": "Present",
+      "description": "Personal resume website built with Next.js, TypeScript, and JSON-driven content management.",
+      "highlights": [
+        "Designed the site so resume content can be updated from a single JSON file.",
+        "Built reusable sections for experience, skills, projects, education, certifications, and languages.",
+        "Added a print-friendly resume layout for PDF export."
       ],
       "url": ""
     }
