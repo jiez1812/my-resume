@@ -168,6 +168,7 @@ export function PrintResume({ data }: PrintResumeProps) {
               {languages.map((lang) => (
                 <span key={lang.language} className="print-lang">
                   <strong>{lang.language}</strong> ({lang.fluency})
+                  {lang.description ? ` - ${lang.description}` : ""}
                 </span>
               ))}
             </div>

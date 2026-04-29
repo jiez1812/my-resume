@@ -78,7 +78,10 @@
       "startDate": "2022-07-01",
       "endDate": "2023-11-01",
       "score": "",
-      "courses": []
+      "courses": [
+        "Result: To be updated",
+        "Relevant coursework: To be updated"
+      ]
     },
     {
       "institution": "Southern University College, Malaysia",
@@ -89,6 +92,7 @@
       "endDate": "2014-12-01",
       "score": "",
       "courses": [
+        "Result: To be updated",
         "Vice Secretary, Student Society of Computer Science (2012)"
       ]
     }
@@ -215,15 +219,18 @@
   "languages": [
     {
       "language": "English",
-      "fluency": "Professional Proficiency"
+      "fluency": "Professional Proficiency",
+      "description": "Used mainly for workplace communication and simple conversations."
     },
     {
       "language": "Chinese",
-      "fluency": "Native"
+      "fluency": "Native",
+      "description": "Native language, comfortable for professional, daily, and informal situations."
     },
     {
       "language": "Malay",
-      "fluency": "Conversational"
+      "fluency": "Conversational",
+      "description": "Limited proficiency, used mainly for simple daily conversations."
     }
   ]
 }

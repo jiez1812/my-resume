@@ -67,6 +67,7 @@ export interface Certificate {
 export interface Language {
   language: string;
   fluency: string;
+  description?: string;
 }
 
 export interface ResumeData {
