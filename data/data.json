@@ -148,8 +148,21 @@
         "Testing & Debugging",
         "Requirements Gathering",
         "IIS Deployment",
+        "AI-Assisted Development",
+        "AI-Assisted Troubleshooting",
         "Azure Fundamentals",
         "Docker Basics"
+      ]
+    },
+    {
+      "name": "Communication & Documentation",
+      "level": "Competent",
+      "keywords": [
+        "Technical Documentation",
+        "Process Documentation",
+        "User Guides",
+        "AI-Assisted Email Writing",
+        "AI-Assisted Documentation"
       ]
     }
   ],
