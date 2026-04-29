@@ -15,7 +15,7 @@ export function TimelineItem({ job }: TimelineItemProps) {
       {/* Timeline dot */}
       <div className="absolute -left-1.5 top-1.5 h-3.5 w-3.5 rounded-full border-2 border-accent bg-card-bg" />
 
-      <div className="rounded-lg border border-card-border bg-card-bg p-5 transition-all duration-300 hover:shadow-md">
+      <div className="rounded-lg border border-card-border bg-card-bg p-5 transition-all duration-300 hover:scale-[1.02] hover:shadow-md">
         <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between">
           <div>
             <h3 className="text-lg font-semibold text-foreground">

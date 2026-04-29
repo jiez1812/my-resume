@@ -16,10 +16,7 @@ export function SkillCard({ skill }: SkillCardProps) {
   const pct = LEVEL_MAP[skill.level] ?? 50;
 
   return (
-    <div className="group relative overflow-hidden rounded-xl border border-card-border bg-card-bg p-5 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
-      {/* Glow effect on hover */}
-      <div className="pointer-events-none absolute inset-0 -z-10 rounded-xl bg-gradient-to-r from-blue-500/20 to-teal-500/20 opacity-0 blur-xl transition-opacity duration-500 group-hover:opacity-100" />
-
+    <div className="rounded-xl border border-card-border bg-card-bg p-5 transition-all duration-300 hover:scale-[1.02] hover:shadow-md">
       <div className="mb-3 flex items-baseline justify-between">
         <h3 className="font-semibold text-foreground">{skill.name}</h3>
         <span className="text-xs font-medium text-muted">{skill.level}</span>
@@ -29,7 +26,7 @@ export function SkillCard({ skill }: SkillCardProps) {
         {skill.keywords.map((keyword) => (
           <span
             key={keyword}
-            className="inline-block rounded-full bg-accent-light px-3 py-1 text-xs font-medium text-accent transition-transform duration-200 hover:scale-105"
+            className="inline-block rounded-full bg-accent-light px-3 py-1 text-xs font-medium text-accent"
           >
             {keyword}
           </span>

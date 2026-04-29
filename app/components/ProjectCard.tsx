@@ -8,7 +8,7 @@ interface ProjectCardProps {
 
 export function ProjectCard({ project }: ProjectCardProps) {
   return (
-    <div className="group rounded-xl border border-card-border bg-card-bg p-5 transition-all duration-300 hover:-translate-y-1 hover:border-l-4 hover:border-l-accent hover:shadow-lg">
+    <div className="rounded-xl border border-card-border bg-card-bg p-5 transition-all duration-300 hover:scale-[1.02] hover:shadow-md">
       <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between">
         <h3 className="text-lg font-semibold text-foreground">
           {project.name}

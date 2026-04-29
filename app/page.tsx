@@ -35,7 +35,7 @@ export default function Home() {
     <>
       {/* Website UI (hidden when printing) */}
       <div className="screen-only min-h-screen bg-background">
-        <Navbar name={basics.name} sectionIds={SECTION_IDS} />
+        <Navbar name="Resume" sectionIds={SECTION_IDS} />
 
         <HeroSection basics={basics} />
 

@@ -16,7 +16,7 @@ export function CertificatesSection({ certificates }: CertificatesSectionProps) 
         {certificates.map((cert) => (
           <div
             key={cert.name}
-            className="flex flex-col rounded-lg border border-card-border bg-card-bg p-4 transition-all duration-300 hover:shadow-md sm:flex-row sm:items-baseline sm:justify-between"
+            className="flex flex-col rounded-lg border border-card-border bg-card-bg p-4 transition-all duration-300 hover:scale-[1.02] hover:shadow-md sm:flex-row sm:items-baseline sm:justify-between"
           >
             <div>
               <h3 className="font-semibold text-foreground">{cert.name}</h3>

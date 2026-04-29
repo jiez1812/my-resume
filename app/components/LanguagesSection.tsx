@@ -15,7 +15,7 @@ export function LanguagesSection({ languages }: LanguagesSectionProps) {
         {languages.map((lang) => (
           <div
             key={lang.language}
-            className="rounded-lg border border-card-border bg-card-bg px-5 py-3 text-center transition-all duration-200 hover:-translate-y-0.5 hover:border-accent/50 hover:shadow-md"
+            className="rounded-lg border border-card-border bg-card-bg px-5 py-3 text-center transition-all duration-300 hover:scale-[1.02] hover:shadow-md"
           >
             <p className="font-semibold text-foreground">{lang.language}</p>
             <p className="text-xs text-muted">{lang.fluency}</p>

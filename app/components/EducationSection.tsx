@@ -16,7 +16,7 @@ export function EducationSection({ education }: EducationSectionProps) {
         {education.map((edu, index) => (
           <div
             key={`${edu.institution}-${index}`}
-            className="rounded-lg border border-card-border bg-card-bg p-5 transition-all duration-300 hover:shadow-md"
+            className="rounded-lg border border-card-border bg-card-bg p-5 transition-all duration-300 hover:scale-[1.02] hover:shadow-md"
           >
             <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between">
               <div>
