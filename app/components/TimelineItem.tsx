@@ -4,13 +4,18 @@ import { parseMarkdown } from "@/app/lib/parseMarkdown";
 
 interface TimelineItemProps {
   job: WorkExperience;
+  isLast?: boolean;
 }
 
-export function TimelineItem({ job }: TimelineItemProps) {
+export function TimelineItem({ job, isLast = false }: TimelineItemProps) {
   return (
     <div className="relative pl-8">
       {/* Timeline line */}
-      <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-gradient-to-b from-accent to-accent/20" />
+      <div
+        className={`absolute left-0 top-0 w-0.5 bg-accent/40 ${
+          isLast ? "bottom-0" : "-bottom-6"
+        }`}
+      />
 
       {/* Timeline dot */}
       <div className="absolute -left-1.5 top-1.5 h-3.5 w-3.5 rounded-full border-2 border-accent bg-card-bg" />

@@ -20,7 +20,7 @@ export function ExperienceTimeline({ work }: ExperienceTimelineProps) {
             direction="left"
             delay={index * 150}
           >
-            <TimelineItem job={job} />
+            <TimelineItem job={job} isLast={index === work.length - 1} />
           </ScrollReveal>
         ))}
       </div>
