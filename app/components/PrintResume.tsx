@@ -26,7 +26,7 @@ export function PrintResume({ data }: PrintResumeProps) {
           )}
           {basics.profiles.map((p) => (
             <span key={p.network}>
-              {p.network}: {p.username}
+              {p.network}: {p.url.replace(/^https?:\/\//, "")}
             </span>
           ))}
         </div>
@@ -44,18 +44,20 @@ export function PrintResume({ data }: PrintResumeProps) {
       {skills.length > 0 && (
         <section className="print-section">
           <h2 className="print-section-title">Technical Skills</h2>
-          <table className="print-skills-table">
-            <tbody>
-              {skills.map((skill) => (
-                <tr key={skill.name}>
-                  <td className="print-skills-category">{skill.name}</td>
-                  <td className="print-skills-keywords">
-                    {skill.keywords.join("  |  ")}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+          <div className="print-skills-list">
+            {skills.map((skill) => (
+              <div key={skill.name} className="print-skill-group">
+                <div className="print-skills-category">{skill.name}</div>
+                <div className="print-skills-keywords">
+                  {skill.keywords.map((k) => (
+                    <span key={k} className="print-skill-pill">
+                      {k}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
         </section>
       )}
 
@@ -166,10 +168,14 @@ export function PrintResume({ data }: PrintResumeProps) {
             <h2 className="print-section-title">Languages</h2>
             <div className="print-languages">
               {languages.map((lang) => (
-                <span key={lang.language} className="print-lang">
-                  <strong>{lang.language}</strong> ({lang.fluency})
-                  {lang.description ? ` - ${lang.description}` : ""}
-                </span>
+                <div key={lang.language} className="print-lang">
+                  <span className="print-lang-line">
+                    <strong>{lang.language}</strong> ({lang.fluency})
+                  </span>
+                  {lang.description && (
+                    <span className="print-lang-desc">{lang.description}</span>
+                  )}
+                </div>
               ))}
             </div>
           </section>
