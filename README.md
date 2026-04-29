@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# My Resume
+
+A JSON-driven resume web app built with Next.js, React, TypeScript, and Tailwind CSS.
+
+The resume content lives in `data/data.json`, so most updates do not require editing React components. Update the JSON file, run the app, and the website renders the latest resume sections automatically.
+
+## Tech Stack
+
+- Next.js 16
+- React 19
+- TypeScript
+- Tailwind CSS 4
+- pnpm
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Run the development server:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+## Updating Resume Data
 
-To learn more about Next.js, take a look at the following resources:
+Edit the resume content in:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```text
+data/data.json
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The JSON structure is typed in:
 
-## Deploy on Vercel
+```text
+app/types/resume.ts
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Main sections:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `basics`: name, title, contact details, summary, location, and social profiles
+- `work`: professional experience timeline
+- `education`: academic history
+- `skills`: grouped technical and professional skills
+- `projects`: project highlights
+- `certificates`: certifications
+- `languages`: spoken languages and fluency
+
+Dates should generally use `YYYY-MM-DD`. For a current role, `endDate` can be set to `Present`.
+
+Some text fields support simple markdown-style bold text, for example:
+
+```json
+"**Key Achievement:** Built an internal application from scratch."
+```
+
+## Project Structure
+
+```text
+app/
+  components/          Reusable resume UI sections
+  lib/                 Formatting and markdown helpers
+  types/resume.ts      TypeScript types for resume data
+  page.tsx             Main page that loads data/data.json
+data/
+  data.json            Resume content source
+public/
+  static assets
+```
+
+## Available Scripts
+
+```bash
+pnpm dev
+pnpm build
+pnpm start
+pnpm lint
+```
+
+## Build
+
+Create a production build:
+
+```bash
+pnpm build
+```
+
+Start the production server:
+
+```bash
+pnpm start
+```
+
+## Printing
+
+The app includes a print-friendly resume view and a floating print/download button. Use the browser print dialog to save the resume as a PDF.
