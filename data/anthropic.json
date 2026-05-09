@@ -170,7 +170,7 @@
       "name": "Internal Data Import Utility",
       "startDate": "2023-01-01",
       "endDate": "Present",
-      "description": "User-facing internal tool that reduced support requests by giving staff a guided, validated workflow for a previously error-prone manual process.",
+      "description": "",
       "highlights": [
         "Identified the most common user errors through direct support interaction and encoded them as validation rules within the tool.",
         "Converted a high-friction manual import process into a guided workflow with clear error messages — reducing inbound support queries for this task.",
@@ -182,7 +182,7 @@
       "name": "Internal Web Portal",
       "startDate": "2023-01-01",
       "endDate": "Present",
-      "description": "Internal web application for data lookup, reporting, and administrative workflows — built, deployed, and maintained in production.",
+      "description": "",
       "highlights": [
         "Built and maintained a Next.js application backed by REST API services, handling both the development and the ongoing production support.",
         "Diagnosed and communicated production issues to affected users, coordinating fixes and managing expectations during downtime.",
@@ -194,7 +194,7 @@
       "name": "Resume Web App",
       "startDate": "2026-02-01",
       "endDate": "Present",
-      "description": "Personal resume website built end-to-end using Claude Code as the primary development environment.",
+      "description": "",
       "highlights": [
         "Built entirely using Claude Code as the primary development tool — direct, sustained experience with Anthropic's agentic coding product.",
         "Encountered and worked through real limitations and friction points in AI-assisted development, giving a practitioner's view of the user experience.",

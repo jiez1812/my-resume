@@ -101,9 +101,11 @@ export function PrintResume({ data }: PrintResumeProps) {
                   {formatDate(project.endDate)}
                 </span>
               </div>
-              <p className="print-text print-project-description">
-                {project.description}
-              </p>
+              {project.description && (
+                <p className="print-text print-project-description">
+                  {project.description}
+                </p>
+              )}
               {project.highlights.length > 0 && (
                 <ul className="print-job-highlights">
                   {project.highlights.map((h, idx) => (
