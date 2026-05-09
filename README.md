@@ -4,6 +4,37 @@ A JSON-driven resume web app built with Next.js, React, TypeScript, and Tailwind
 
 The resume content lives in `data/data.json`, so most updates do not require editing React components. Update the JSON file, run the app, and the website renders the latest resume sections automatically.
 
+## Slug system — multiple tailored resumes
+
+Each slug maps a URL path to a separate JSON file, so you can maintain one resume per company or role:
+
+| URL | Data file | Env var (production) |
+|-----|-----------|----------------------|
+| `/` | `data/data.json` | `RESUME_DATA` |
+| `/<slug>` | `data/<slug>.json` | `RESUME_DATA_<SLUG>` |
+
+For example, a resume tailored for Google lives at `/google`, backed by `data/google.json` locally or the `RESUME_DATA_GOOGLE` environment variable on Vercel.
+
+### Creating a new slug
+
+1. Copy the commented template:
+   ```bash
+   cp data/slug.example.json data/<your-slug>.json
+   ```
+2. Replace all placeholder values with real content. The file contains inline `"//"` comments explaining every field.
+3. Start the dev server — the route is available immediately at `http://localhost:3000/<your-slug>`.
+
+Slug names must match `[a-zA-Z0-9_-]+` (letters, digits, hyphens, underscores only).
+
+### Production (Vercel)
+
+Resume JSON is injected at build time via environment variables — data files are never committed. Add one variable per slug in Vercel project settings:
+
+- `RESUME_DATA` — main resume JSON
+- `RESUME_DATA_<SLUG>` — per-slug JSON, uppercased (e.g. `RESUME_DATA_GOOGLE` → `/google`)
+
+The prebuild script (`scripts/prebuild.js`) runs automatically before `next build` and writes each env var to the corresponding `data/*.json` file.
+
 ## Tech Stack
 
 - Next.js 16
@@ -64,12 +95,17 @@ Some text fields support simple markdown-style bold text, for example:
 
 ```text
 app/
+  [slug]/page.tsx      Dynamic route — serves data/<slug>.json at /<slug>
   components/          Reusable resume UI sections
   lib/                 Formatting and markdown helpers
   types/resume.ts      TypeScript types for resume data
   page.tsx             Main page that loads data/data.json
 data/
-  data.json            Resume content source
+  data.json            Main resume content (gitignored; use RESUME_DATA env var in prod)
+  data.example.json    Commented template for the main resume
+  slug.example.json    Commented template for any slug-specific resume
+scripts/
+  prebuild.js          Writes env var JSON to data/*.json before build
 public/
   static assets
 ```
