@@ -1,5 +1,4 @@
 import type { Project } from "@/app/types/resume";
-import { formatDate } from "@/app/lib/formatDate";
 import { parseMarkdown } from "@/app/lib/parseMarkdown";
 
 interface ProjectCardProps {
@@ -9,15 +8,9 @@ interface ProjectCardProps {
 export function ProjectCard({ project }: ProjectCardProps) {
   return (
     <div className="rounded-xl border border-card-border bg-card-bg p-5 transition-all duration-300 hover:scale-[1.02] hover:shadow-md">
-      <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between">
-        <h3 className="text-lg font-semibold text-foreground">
-          {project.name}
-        </h3>
-        <span className="text-sm text-muted">
-          {formatDate(project.startDate)} &ndash;{" "}
-          {formatDate(project.endDate)}
-        </span>
-      </div>
+      <h3 className="text-lg font-semibold text-foreground">
+        {project.name}
+      </h3>
 
       <p className="mt-2 text-sm text-foreground/80">{project.description}</p>
 

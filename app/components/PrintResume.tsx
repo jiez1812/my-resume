@@ -96,10 +96,12 @@ export function PrintResume({ data }: PrintResumeProps) {
             <div key={project.name} className="print-job">
               <div className="print-job-header">
                 <span className="print-job-title">{project.name}</span>
-                <span className="print-job-dates">
-                  {formatDate(project.startDate)} &ndash;{" "}
-                  {formatDate(project.endDate)}
-                </span>
+                {project.startDate && (
+                  <span className="print-job-dates">
+                    {formatDate(project.startDate)} &ndash;{" "}
+                    {formatDate(project.endDate ?? "")}
+                  </span>
+                )}
               </div>
               {project.description && (
                 <p className="print-text print-project-description">
