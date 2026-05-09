@@ -1,0 +1,85 @@
+{
+  "basics": {
+    "name": "Your Name",
+    "label": "Your Job Title",
+    "email": "your.email@example.com",
+    "phone": "",
+    "url": "",
+    "summary": "A short professional summary about yourself.",
+    "location": {
+      "city": "Your City",
+      "countryCode": "SG",
+      "region": "Your Region"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Your Name",
+        "url": "https://www.linkedin.com/in/your-profile/"
+      },
+      {
+        "network": "GitHub",
+        "username": "your-username",
+        "url": "https://github.com/your-username"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Company Name",
+      "position": "Your Position",
+      "url": "",
+      "startDate": "2022-01-01",
+      "endDate": "Present",
+      "summary": "Brief description of your role.",
+      "highlights": [
+        "Key achievement or responsibility.",
+        "Another achievement."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University Name",
+      "url": "https://example.edu",
+      "area": "Your Field of Study",
+      "studyType": "Bachelor of Science",
+      "startDate": "2018-01-01",
+      "endDate": "2022-01-01",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Skill Category",
+      "level": "Proficient",
+      "keywords": ["Skill 1", "Skill 2", "Skill 3"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project Name",
+      "startDate": "2023-01-01",
+      "endDate": "Present",
+      "description": "Brief project description.",
+      "highlights": ["What you built.", "Impact it had."],
+      "url": ""
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certification Name",
+      "date": "2022-01-01",
+      "issuer": "Issuing Organization",
+      "url": ""
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Professional Proficiency",
+      "description": "Used for workplace communication."
+    }
+  ]
+}

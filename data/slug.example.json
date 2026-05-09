@@ -1,0 +1,95 @@
+{
+  "//": "Copy this file to data/<your-slug>.json (e.g. data/google.json) to create a tailored resume at /<your-slug>. All placeholder values must be replaced with real data before the page will render correctly. In production, set the env var RESUME_DATA_<SLUG> (e.g. RESUME_DATA_GOOGLE) to the full JSON string instead of committing the file.",
+  "basics": {
+    "//": "Displayed in the hero section and page header. 'label' is your job title. 'summary' is a short paragraph shown in the Summary section — tailor it for the target company/role.",
+    "name": "Your Name",
+    "label": "Your Job Title",
+    "email": "your.email@example.com",
+    "phone": "",
+    "url": "",
+    "summary": "A short professional summary tailored for this specific resume version.",
+    "location": {
+      "//": "'countryCode' follows ISO 3166-1 alpha-2 (e.g. SG, US, GB).",
+      "city": "Your City",
+      "countryCode": "SG",
+      "region": "Your Region"
+    },
+    "profiles": [
+      {
+        "//": "Add as many social/professional profiles as needed. 'network' is the display name.",
+        "network": "LinkedIn",
+        "username": "Your Name",
+        "url": "https://www.linkedin.com/in/your-profile/"
+      },
+      {
+        "network": "GitHub",
+        "username": "your-username",
+        "url": "https://github.com/your-username"
+      }
+    ]
+  },
+  "work": [
+    {
+      "//": "List roles in reverse-chronological order (most recent first). Use 'highlights' for bullet points. Leave 'endDate' as 'Present' for your current role.",
+      "name": "Company Name",
+      "position": "Your Position",
+      "url": "",
+      "startDate": "2022-01-01",
+      "endDate": "Present",
+      "summary": "Brief description of your role and team context.",
+      "highlights": [
+        "Key achievement or responsibility — quantify impact where possible.",
+        "Another notable achievement."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "//": "'studyType' is the degree name (e.g. Bachelor of Science). 'score' can hold a GPA or grade — leave empty to hide it.",
+      "institution": "University Name",
+      "url": "https://example.edu",
+      "area": "Your Field of Study",
+      "studyType": "Bachelor of Science",
+      "startDate": "2018-01-01",
+      "endDate": "2022-01-01",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "//": "'level' is a free-text descriptor shown as a badge (e.g. Expert, Proficient, Familiar). 'keywords' are individual skill tags within the category.",
+      "name": "Skill Category",
+      "level": "Proficient",
+      "keywords": ["Skill 1", "Skill 2", "Skill 3"]
+    }
+  ],
+  "projects": [
+    {
+      "//": "'description' is a short one-liner shown as a subtitle. 'highlights' are the bullet points. Leave 'url' empty to hide the link.",
+      "name": "Project Name",
+      "startDate": "2023-01-01",
+      "endDate": "Present",
+      "description": "Brief project description shown as a subtitle.",
+      "highlights": ["What you built and how.", "Impact or outcome."],
+      "url": ""
+    }
+  ],
+  "certificates": [
+    {
+      "//": "'date' is the issue date. 'url' links to the credential — leave empty to hide.",
+      "name": "Certification Name",
+      "date": "2022-01-01",
+      "issuer": "Issuing Organization",
+      "url": ""
+    }
+  ],
+  "languages": [
+    {
+      "//": "'fluency' is a free-text level descriptor (e.g. Native, Professional Proficiency, Conversational). 'description' is optional context shown beneath the fluency label.",
+      "language": "English",
+      "fluency": "Professional Proficiency",
+      "description": "Used for workplace communication."
+    }
+  ]
+}

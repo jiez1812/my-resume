@@ -1,4 +1,6 @@
-import resumeData from "@/data/anthropic.json";
+import fs from "fs";
+import path from "path";
+import { notFound } from "next/navigation";
 import type { ResumeData } from "@/app/types/resume";
 import { Navbar } from "@/app/components/Navbar";
 import { HeroSection } from "@/app/components/HeroSection";
@@ -15,8 +17,6 @@ import { Footer } from "@/app/components/Footer";
 import { PrintResume } from "@/app/components/PrintResume";
 import { PrintButton } from "@/app/components/PrintButton";
 
-const data = resumeData as ResumeData;
-
 const SECTION_IDS = [
   "hero",
   "summary",
@@ -28,7 +28,31 @@ const SECTION_IDS = [
   "languages",
 ];
 
-export default function AnthropicResume() {
+export function generateStaticParams() {
+  const dataDir = path.join(process.cwd(), "data");
+  return fs
+    .readdirSync(dataDir)
+    .filter(
+      (f) =>
+        f.endsWith(".json") &&
+        f !== "data.json" &&
+        !f.endsWith(".example.json")
+    )
+    .map((f) => ({ slug: f.replace(".json", "") }));
+}
+
+export default async function ResumePage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  if (!/^[a-zA-Z0-9_-]+$/.test(slug)) notFound();
+
+  const filePath = path.join(process.cwd(), "data", `${slug}.json`);
+  if (!fs.existsSync(filePath)) notFound();
+
+  const data = JSON.parse(fs.readFileSync(filePath, "utf-8")) as ResumeData;
   const { basics, work, education, skills, projects, certificates, languages } =
     data;
 

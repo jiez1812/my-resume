@@ -42,3 +42,7 @@ next-env.d.ts
 
 # Claude
 .claude
+
+# Resume data (personal info — set RESUME_DATA and RESUME_DATA_<SLUG> env vars in Vercel)
+/data/*.json
+!/data/*.example.json
