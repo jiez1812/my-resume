@@ -55,7 +55,11 @@ export function Navbar({ name, sectionIds }: NavbarProps) {
   }, [sectionIds]);
 
   function scrollTo(id: string) {
-    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+    const el = document.getElementById(id);
+    if (!el) return;
+    const offset = id === "hero" ? 0 : 104;
+    const top = el.getBoundingClientRect().top + window.scrollY - offset;
+    window.scrollTo({ top, behavior: "smooth" });
     setMenuOpen(false);
   }
 

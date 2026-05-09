@@ -153,11 +153,20 @@ export function HeroSection({ basics }: HeroSectionProps) {
           )}
 
           {/* Scroll indicator */}
-          <div className="mt-12 animate-bounce">
-            <svg className="mx-auto h-6 w-6 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+          <button
+            onClick={() => {
+              const el = document.getElementById("summary");
+              if (!el) return;
+              const top = el.getBoundingClientRect().top + window.scrollY - 104;
+              window.scrollTo({ top, behavior: "smooth" });
+            }}
+            aria-label="Scroll to summary"
+            className="mt-12 animate-bounce cursor-pointer"
+          >
+            <svg className="mx-auto h-6 w-6 text-slate-400 transition-colors hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
             </svg>
-          </div>
+          </button>
         </div>
       </div>
     </section>
