@@ -5,7 +5,7 @@
     "email": "jieztee@gmail.com",
     "phone": "",
     "url": "",
-    "summary": "IT professional in a manufacturing environment with over 8 years of experience supporting office operations, infrastructure, and internal workflow improvement. Uses programming as a practical tool to automate repetitive tasks, analyze data, import business data, and build small internal applications that help office staff work more efficiently. Experienced with Windows Server, Active Directory, C#/.NET, Python, SQL, IIS, and Next.js.",
+    "summary": "IT professional in a manufacturing environment with over 10 years of experience supporting office operations, infrastructure, and internal workflow improvement. Uses programming as a practical tool to automate repetitive tasks, analyze data, import business data, and build small internal applications that help office staff work more efficiently. Experienced with Windows Server, Active Directory, C#/.NET, Python, SQL, IIS, and Next.js.",
     "location": {
       "city": "Singapore",
       "countryCode": "SG",
@@ -78,10 +78,7 @@
       "startDate": "2022-07-01",
       "endDate": "2023-11-01",
       "score": "",
-      "courses": [
-        "Result: To be updated",
-        "Relevant coursework: To be updated"
-      ]
+      "courses": []
     },
     {
       "institution": "Southern University College, Malaysia",
@@ -92,7 +89,6 @@
       "endDate": "2014-12-01",
       "score": "",
       "courses": [
-        "Result: To be updated",
         "Vice Secretary, Student Society of Computer Science (2012)"
       ]
     }

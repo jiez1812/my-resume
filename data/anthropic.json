@@ -1,0 +1,231 @@
+{
+  "basics": {
+    "name": "Tee Wei Jie",
+    "label": "Technical Support & IT Development | Singapore | Claude Code User",
+    "email": "jieztee@gmail.com",
+    "phone": "",
+    "url": "",
+    "summary": "IT professional with 10+ years of technical support and development experience in Singapore. Comfortable with escalated issues, clear communication across technical levels, and building processes from scratch in lean teams. An active daily user of Claude Code, with a practitioner's view of where AI tools help and where users hit friction.",
+    "location": {
+      "city": "Singapore",
+      "countryCode": "SG",
+      "region": "Singapore"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Tee Wei Jie",
+        "url": "https://www.linkedin.com/in/tee-wei-jie-168156120/"
+      },
+      {
+        "network": "GitHub",
+        "username": "jiez1812",
+        "url": "https://github.com/jiez1812"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Bibi&Baba Private Limited",
+      "position": "IT Development Officer",
+      "url": "",
+      "startDate": "2022-10-01",
+      "endDate": "Present",
+      "summary": "Serves as the primary technical contact for internal users while building and maintaining tools that reduce support load and improve operational consistency.",
+      "highlights": [
+        "**User-Facing Technical Support:** Acting first point of contact for application issues — diagnosing errors, triaging root causes, communicating resolution steps clearly to non-technical staff, and coordinating with the development side when code changes are needed.",
+        "Wrote internal process documentation and user guides from scratch, reducing repeat support requests and enabling self-service for common tasks.",
+        "Built internal tools to automate repetitive data import and checking tasks, reducing manual work and the volume of error-related queries from office staff.",
+        "Adopted Claude Code as a primary development environment — daily hands-on experience with Anthropic's tooling, including where it excels and where users encounter difficulty.",
+        "Maintained internal applications used for daily data lookup, reporting, and administrative workflows — including diagnosing production issues and communicating impact to affected users."
+      ]
+    },
+    {
+      "name": "Bibi&Baba Private Limited",
+      "position": "IT Assistant (Infrastructure Focus)",
+      "url": "",
+      "startDate": "2021-01-01",
+      "endDate": "2022-10-01",
+      "summary": "Handled escalated infrastructure issues and served as the technical bridge between systems and end-users.",
+      "highlights": [
+        "**Escalated Support:** Took on complex infrastructure issues (Windows Server, Active Directory, DNS/DHCP) that required deep investigation, persistence, and clear communication of findings to non-technical management.",
+        "Diagnosed and resolved server-side issues that directly affected daily operations, often under time pressure with business impact.",
+        "Acted as the bridge between hardware infrastructure and software requirements — translating technical constraints into actionable guidance for staff.",
+        "Continued to build and refine automation scripts, reducing recurring support overhead."
+      ]
+    },
+    {
+      "name": "Bibi&Baba Private Limited",
+      "position": "IT Assistant (Support & Automation)",
+      "url": "",
+      "startDate": "2015-09-01",
+      "endDate": "2020-12-31",
+      "summary": "Delivered first and second-tier technical support while building early process infrastructure and automation from scratch.",
+      "highlights": [
+        "**Reliable Support:** Provided comprehensive hardware and software support to internal staff across multiple departments over 5+ years — known for resolving issues quickly and following through until problems were fully closed.",
+        "Served as the escalation point for complex issues that required research, persistence, and root-cause investigation before resolution.",
+        "Built the company's initial IT support documentation and inventory records from scratch — establishing the support knowledge base and processes that outlasted the role.",
+        "Communicated technical solutions clearly to non-technical users, adapting explanations to each person's level of familiarity."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Coventry University (PSB Academy)",
+      "url": "https://www.coventry.ac.uk/",
+      "area": "Computing Science",
+      "studyType": "Bachelor of Science (Honours)",
+      "startDate": "2022-07-01",
+      "endDate": "2023-11-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Southern University College, Malaysia",
+      "url": "https://www.southern.edu.my/",
+      "area": "Computer Science",
+      "studyType": "Diploma",
+      "startDate": "2011-08-01",
+      "endDate": "2014-12-01",
+      "score": "",
+      "courses": [
+        "Vice Secretary, Student Society of Computer Science (2012)"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Technical Support & Process",
+      "level": "Advanced",
+      "keywords": [
+        "Escalated Support",
+        "Issue Prioritisation",
+        "User Empathy",
+        "Process Documentation",
+        "Knowledge Base Building",
+        "Step-by-Step Troubleshooting Guides"
+      ]
+    },
+    {
+      "name": "Anthropic Products & AI Tools",
+      "level": "Proficient",
+      "keywords": [
+        "Claude Code (Daily User)",
+        "AI-Assisted Troubleshooting",
+        "Prompt Engineering",
+        "LLM Workflow Experience",
+        "AI-Assisted Documentation"
+      ]
+    },
+    {
+      "name": "API & Web Development",
+      "level": "Competent",
+      "keywords": [
+        "REST APIs",
+        "Next.js",
+        "Python",
+        "JavaScript / TypeScript",
+        "Backend Services",
+        "API Documentation",
+        "IIS Deployment"
+      ]
+    },
+    {
+      "name": "Internal Tools & Automation",
+      "level": "Proficient",
+      "keywords": [
+        "C# (.NET)",
+        "Python Scripting",
+        "Spreadsheet Automation",
+        "Data Import Workflows",
+        "Process Improvement"
+      ]
+    },
+    {
+      "name": "Infrastructure & Systems",
+      "level": "Advanced",
+      "keywords": [
+        "Windows Server",
+        "Active Directory",
+        "IIS",
+        "DNS / DHCP",
+        "Network Troubleshooting",
+        "Hardware Support"
+      ]
+    },
+    {
+      "name": "Data & Databases",
+      "level": "Competent",
+      "keywords": [
+        "SQL",
+        "SQL Server",
+        "PostgreSQL",
+        "Data Validation",
+        "Reporting Queries"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Internal Data Import Utility",
+      "startDate": "2023-01-01",
+      "endDate": "Present",
+      "description": "User-facing internal tool that reduced support requests by giving staff a guided, validated workflow for a previously error-prone manual process.",
+      "highlights": [
+        "Identified the most common user errors through direct support interaction and encoded them as validation rules within the tool.",
+        "Converted a high-friction manual import process into a guided workflow with clear error messages — reducing inbound support queries for this task.",
+        "Wrote accompanying user documentation so staff could self-serve without escalating to IT."
+      ],
+      "url": ""
+    },
+    {
+      "name": "Internal Web Portal",
+      "startDate": "2023-01-01",
+      "endDate": "Present",
+      "description": "Internal web application for data lookup, reporting, and administrative workflows — built, deployed, and maintained in production.",
+      "highlights": [
+        "Built and maintained a Next.js application backed by REST API services, handling both the development and the ongoing production support.",
+        "Diagnosed and communicated production issues to affected users, coordinating fixes and managing expectations during downtime.",
+        "Improved access to business data by translating backend complexity into a simpler interface for non-technical staff."
+      ],
+      "url": ""
+    },
+    {
+      "name": "Resume Web App",
+      "startDate": "2026-02-01",
+      "endDate": "Present",
+      "description": "Personal resume website built end-to-end using Claude Code as the primary development environment.",
+      "highlights": [
+        "Built entirely using Claude Code as the primary development tool — direct, sustained experience with Anthropic's agentic coding product.",
+        "Encountered and worked through real limitations and friction points in AI-assisted development, giving a practitioner's view of the user experience.",
+        "Designed the site so resume content can be updated from a single JSON file, with separate tailored versions per target company."
+      ],
+      "url": ""
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Microsoft Certified: Azure Fundamentals (AZ-900)",
+      "date": "2022-04-08",
+      "issuer": "Microsoft",
+      "url": "https://learn.microsoft.com/api/credentials/share/en-us/"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Professional Proficiency",
+      "description": "Primary language for all written communication, documentation, and workplace interaction."
+    },
+    {
+      "language": "Chinese",
+      "fluency": "Native",
+      "description": "Native language — comfortable for professional, technical, and informal conversations. Useful for APAC user support."
+    },
+    {
+      "language": "Malay",
+      "fluency": "Conversational",
+      "description": "Limited proficiency, used mainly for simple daily conversations."
+    }
+  ]
+}
