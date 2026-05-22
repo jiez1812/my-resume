@@ -126,16 +126,39 @@ export function PrintResume({ data }: PrintResumeProps) {
       {/* Skills */}
       {skills.length > 0 && (
         <section className="print-section print-skills-section">
-          <h2 className="print-section-title">Technical Skills</h2>
+          <h2 className="print-section-title">Skills</h2>
           <div className="print-skills-list">
-            {skills.map((skill) => (
-              <div key={skill.name} className="print-skill-group">
-                <span className="print-skills-category">{skill.name}</span>
-                <span className="print-skills-keywords">
-                  {skill.keywords.join(", ")}
-                </span>
-              </div>
-            ))}
+            {skills.map((skill) => {
+              const hasGroups = (skill.groups?.length ?? 0) > 0;
+
+              return (
+                <div key={skill.name} className="print-skill-group">
+                  {hasGroups ? (
+                    <>
+                      <span className="print-skills-category">{skill.name}</span>
+                      <div className="print-skills-keywords">
+                        {skill.groups?.map((group) => (
+                          <div key={group.name}>
+                            <strong>
+                              {group.name}
+                              {group.level ? ` (${group.level})` : ""}:
+                            </strong>{" "}
+                            {group.keywords.join(", ")}
+                          </div>
+                        ))}
+                      </div>
+                    </>
+                  ) : (
+                    <>
+                      <span className="print-skills-category">{skill.name}</span>
+                      <span className="print-skills-keywords">
+                        {skill.keywords.join(", ")}
+                      </span>
+                    </>
+                  )}
+                </div>
+              );
+            })}
           </div>
         </section>
       )}

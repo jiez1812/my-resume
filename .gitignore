@@ -43,6 +43,9 @@ next-env.d.ts
 # Claude
 .claude
 
+# Local agent instructions
+AGENTS.md
+
 # Resume data (personal info — set RESUME_DATA and RESUME_DATA_<SLUG> env vars in Vercel)
 /data/*.json
 !/data/*.example.json

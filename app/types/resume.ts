@@ -42,10 +42,17 @@ export interface Education {
   courses: string[];
 }
 
+export interface SkillGroup {
+  name: string;
+  level?: string;
+  keywords: string[];
+}
+
 export interface Skill {
   name: string;
   level: string;
   keywords: string[];
+  groups?: SkillGroup[];
 }
 
 export interface Project {

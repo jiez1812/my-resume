@@ -14,32 +14,85 @@ interface SkillCardProps {
 
 export function SkillCard({ skill }: SkillCardProps) {
   const pct = LEVEL_MAP[skill.level] ?? 50;
+  const hasGroups = (skill.groups?.length ?? 0) > 0;
 
   return (
     <div className="rounded-xl border border-card-border bg-card-bg p-5 transition-all duration-300 hover:scale-[1.02] hover:shadow-md">
       <div className="mb-3 flex items-baseline justify-between">
         <h3 className="font-semibold text-foreground">{skill.name}</h3>
-        <span className="text-xs font-medium text-muted">{skill.level}</span>
+        {!hasGroups && (
+          <span className="text-xs font-medium text-muted">{skill.level}</span>
+        )}
       </div>
 
-      <div className="mb-4 flex flex-wrap gap-2">
-        {skill.keywords.map((keyword) => (
-          <span
-            key={keyword}
-            className="inline-block rounded-full bg-accent-light px-3 py-1 text-xs font-medium text-accent"
-          >
-            {keyword}
-          </span>
-        ))}
-      </div>
+      {hasGroups ? (
+        <div className="space-y-4">
+          {skill.groups?.map((group) => {
+            const groupPct = group.level ? LEVEL_MAP[group.level] ?? 50 : null;
+
+            return (
+              <div key={group.name}>
+                <div className="mb-2 flex items-baseline justify-between gap-4">
+                  <h4 className="text-xs font-semibold uppercase tracking-wide text-muted">
+                    {group.name}
+                  </h4>
+                  {group.level && (
+                    <span className="shrink-0 text-xs font-medium text-muted">
+                      {group.level}
+                    </span>
+                  )}
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {group.keywords.map((keyword) => (
+                    <span
+                      key={`${group.name}-${keyword}`}
+                      className="inline-block rounded-full bg-accent-light px-3 py-1 text-xs font-medium text-accent"
+                    >
+                      {keyword}
+                    </span>
+                  ))}
+                </div>
+                {groupPct !== null && (
+                  <div className="mt-3 h-1 w-full overflow-hidden rounded-full bg-card-border">
+                    <div
+                      className="animate-progress-fill h-full rounded-full bg-gradient-to-r from-accent to-blue-400"
+                      style={
+                        {
+                          "--tw-scale-x": "1",
+                          width: `${groupPct}%`,
+                        } as React.CSSProperties
+                      }
+                    />
+                  </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      ) : (
+        <div className="mb-4 flex flex-wrap gap-2">
+          {skill.keywords.map((keyword) => (
+            <span
+              key={keyword}
+              className="inline-block rounded-full bg-accent-light px-3 py-1 text-xs font-medium text-accent"
+            >
+              {keyword}
+            </span>
+          ))}
+        </div>
+      )}
 
       {/* Progress bar */}
-      <div className="h-1.5 w-full overflow-hidden rounded-full bg-card-border">
-        <div
-          className="animate-progress-fill h-full rounded-full bg-gradient-to-r from-accent to-blue-400"
-          style={{ "--tw-scale-x": "1", width: `${pct}%` } as React.CSSProperties}
-        />
-      </div>
+      {!hasGroups && (
+        <div className="h-1.5 w-full overflow-hidden rounded-full bg-card-border">
+          <div
+            className="animate-progress-fill h-full rounded-full bg-gradient-to-r from-accent to-blue-400"
+            style={
+              { "--tw-scale-x": "1", width: `${pct}%` } as React.CSSProperties
+            }
+          />
+        </div>
+      )}
     </div>
   );
 }
