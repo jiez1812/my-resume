@@ -32,13 +32,24 @@ export function EducationSection({ education }: EducationSectionProps) {
               </span>
             </div>
             {edu.courses.length > 0 && (
-              <ul className="mt-2">
-                {edu.courses.map((course, cIdx) => (
-                  <li key={cIdx} className="text-sm text-muted">
-                    {course}
-                  </li>
-                ))}
-              </ul>
+              <div className="mt-3">
+                {edu.courses.length === 1 ? (
+                  <p className="text-sm text-muted">{edu.courses[0]}</p>
+                ) : (
+                  <>
+                    <p className="text-sm font-medium text-foreground">
+                      {edu.courses[0]}
+                    </p>
+                    <ul className="mt-2 list-disc space-y-1 pl-5">
+                      {edu.courses.slice(1).map((course, cIdx) => (
+                        <li key={cIdx} className="text-sm text-muted">
+                          {course}
+                        </li>
+                      ))}
+                    </ul>
+                  </>
+                )}
+              </div>
             )}
           </div>
         ))}

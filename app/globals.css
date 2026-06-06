@@ -391,6 +391,13 @@ body {
     margin-bottom: 5pt;
   }
 
+  .print-edu-detail-title {
+    margin-top: 2pt;
+    font-size: 8.75pt;
+    font-weight: 600;
+    color: #334155;
+  }
+
   /* --- Two Column (Certs + Languages) --- */
 
   .print-two-col {

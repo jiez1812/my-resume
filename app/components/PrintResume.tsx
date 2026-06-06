@@ -182,13 +182,23 @@ export function PrintResume({ data }: PrintResumeProps) {
                   {formatDate(edu.endDate)}
                 </span>
               </div>
-              {edu.courses.length > 0 && (
-                <ul className="print-job-highlights">
-                  {edu.courses.map((c, idx) => (
-                    <li key={idx}>{c}</li>
-                  ))}
-                </ul>
-              )}
+              {edu.courses.length > 0 &&
+                (edu.courses.length === 1 ? (
+                  <ul className="print-job-highlights">
+                    <li>{edu.courses[0]}</li>
+                  </ul>
+                ) : (
+                  <>
+                    <div className="print-edu-detail-title">
+                      {edu.courses[0]}
+                    </div>
+                    <ul className="print-job-highlights">
+                      {edu.courses.slice(1).map((c, idx) => (
+                        <li key={idx}>{c}</li>
+                      ))}
+                    </ul>
+                  </>
+                ))}
             </div>
           ))}
         </section>
