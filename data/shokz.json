@@ -1,0 +1,301 @@
+{
+  "basics": {
+    "name": "Tee Wei Jie",
+    "label": "Software & Automation Engineer | Python | AI Agent Workflows",
+    "email": "jieztee@gmail.com",
+    "phone": "",
+    "url": "",
+    "summary": "Computing Science graduate and software/automation engineer with 10+ years of hands-on technical experience across Python automation, internal application development, systems troubleshooting, and production support. Builds end-to-end tools from requirements through deployment and support, with hands-on personal experimentation in LLM-based agent workflows, model routing, and AI-assisted engineering. Strong in debugging cross-layer issues involving applications, APIs, data, servers, and networks, with native Chinese and professional English communication.",
+    "location": {
+      "city": "Singapore",
+      "countryCode": "SG",
+      "region": "Singapore"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Tee Wei Jie",
+        "url": "https://www.linkedin.com/in/tee-wei-jie-168156120/"
+      },
+      {
+        "network": "GitHub",
+        "username": "jiez1812",
+        "url": "https://github.com/jiez1812"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Bibi&Baba Private Limited",
+      "position": "IT Development Officer",
+      "url": "",
+      "startDate": "2022-10-01",
+      "endDate": "Present",
+      "summary": "Builds and maintains internal applications and automation for office users while supporting production IT systems for 20+ users and 40+ devices in a manufacturing company.",
+      "highlights": [
+        "**Application Development:** Built and maintained internal applications and scripts for data import, validation, lookup, reporting, and administrative workflows used by office staff.",
+        "Developed user-facing tools with Python, C#/.NET, Next.js, React, SQL, and backend services, turning recurring manual work into guided and repeatable processes.",
+        "Worked end to end from requirement discussion and solution design through implementation, testing, deployment, user support, and iterative improvement.",
+        "Built reporting and data-processing utilities for packing lists, production summaries, SMS notifications, billing summaries, and operational data checks.",
+        "Maintained internal web applications used by 5 active users for daily lookup, administration, and reporting, including deployment and support in the company environment.",
+        "Diagnosed application, database, server, access, network, and integration issues across internal systems, using cross-layer troubleshooting to restore service and improve reliability."
+      ]
+    },
+    {
+      "name": "Bibi&Baba Private Limited",
+      "position": "IT Assistant (Infrastructure Focus)",
+      "url": "",
+      "startDate": "2021-01-01",
+      "endDate": "2022-10-01",
+      "summary": "Moved from general IT support into server administration, infrastructure ownership, and automation support before taking a development-focused role.",
+      "highlights": [
+        "**Infrastructure Ownership:** Managed Windows Server and Active Directory responsibilities together with DNS, DHCP, user access, and internal network support.",
+        "Handled server-side and endpoint troubleshooting for 20+ users and 40+ devices, including access, connectivity, application, and device issues.",
+        "Maintained core infrastructure and user access so internal applications and daily operations could run reliably.",
+        "Improved scripts and small automations that reduced repeated manual IT and office tasks."
+      ]
+    },
+    {
+      "name": "Bibi&Baba Private Limited",
+      "position": "IT Assistant (Support & Automation)",
+      "url": "",
+      "startDate": "2015-09-01",
+      "endDate": "2020-12-01",
+      "summary": "Provided daily IT support while introducing scripts and small automations that reduced repeated administrative work.",
+      "highlights": [
+        "**Support and Automation Foundation:** Used Python scripts to automate repetitive administrative tasks and save time for the team.",
+        "Provided hardware, software, user access, application, and device support for 20+ users and 40+ devices.",
+        "Maintained IT inventory records, operational logs, and support documentation for recurring issues.",
+        "Progressively took on more infrastructure and internal systems responsibilities after resolving practical office IT problems."
+      ]
+    },
+    {
+      "name": "Geolab (M) Sdn Bhd",
+      "position": "Engineer Assistant",
+      "url": "",
+      "startDate": "2014-03-01",
+      "endDate": "2015-07-01",
+      "summary": "Supported engineering fieldwork and reporting for geotechnical testing projects in Malaysia.",
+      "highlights": [
+        "Wrote technical reports with project data, test results, and analysis for client engineering decisions.",
+        "Prepared and calibrated testing equipment to support engineers conducting on-site work.",
+        "Maintained equipment accuracy and protected soil sample integrity so results remained reliable."
+      ]
+    },
+    {
+      "name": "AXP Solution",
+      "position": "Junior Programmer",
+      "url": "",
+      "startDate": "2013-07-01",
+      "endDate": "2013-10-01",
+      "summary": "Supported accounting software development and documentation under the direction of a team leader in Malaysia.",
+      "highlights": [
+        "Developed and maintained accounting software features under team leader guidance.",
+        "Fixed and updated existing software to meet assigned quality requirements.",
+        "Wrote and maintained software manuals for users and internal reference."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Coventry University (PSB Academy)",
+      "url": "",
+      "area": "Computing Science",
+      "studyType": "Bachelor of Science (Honours)",
+      "startDate": "2022-07-01",
+      "endDate": "2023-11-01",
+      "score": "",
+      "courses": [
+        "Individual Project: Developed a full-stack hospital uniform ordering web application with Flask, covering requirements, design, implementation, and deployment."
+      ]
+    },
+    {
+      "institution": "Southern University College, Malaysia",
+      "url": "",
+      "area": "Computer Science",
+      "studyType": "Diploma",
+      "startDate": "2011-08-01",
+      "endDate": "2014-12-01",
+      "score": "Vice Secretary, Student Society of Computer Science (2012)",
+      "courses": [
+        "Documented and archived meeting notes so future committee members could track past decisions.",
+        "Participated in committee planning and day-to-day society decisions.",
+        "Coordinated announcements to computer science department members."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "AI & Software Engineering",
+      "level": "",
+      "keywords": [],
+      "groups": [
+        {
+          "name": "Python & Application Engineering",
+          "level": "Proficient",
+          "keywords": [
+            "Python",
+            "C# (.NET)",
+            "Next.js",
+            "React",
+            "JavaScript/TypeScript",
+            "FastAPI / Flask",
+            "REST API Integration"
+          ]
+        },
+        {
+          "name": "AI Application Workflows",
+          "level": "Hands-on",
+          "keywords": [
+            "Prompt Engineering",
+            "AI Agent Workflows",
+            "Model Routing",
+            "Workflow Orchestration",
+            "Agent Tool Use",
+            "AI-Assisted Development"
+          ]
+        },
+        {
+          "name": "Data & Backend",
+          "level": "Proficient",
+          "keywords": [
+            "SQL",
+            "SQL Server",
+            "PostgreSQL",
+            "Data Validation",
+            "Data Import Workflows",
+            "Spreadsheet Automation"
+          ]
+        },
+        {
+          "name": "Engineering Tools",
+          "level": "Competent",
+          "keywords": [
+            "Git",
+            "Gitea",
+            "Docker Basics",
+            "IIS"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Engineering & Delivery",
+      "level": "",
+      "keywords": [],
+      "groups": [
+        {
+          "name": "Troubleshooting & Reliability",
+          "level": "Proficient",
+          "keywords": [
+            "Testing & Debugging",
+            "Application Troubleshooting",
+            "API Troubleshooting",
+            "Root Cause Analysis",
+            "Workflow Improvement"
+          ]
+        },
+        {
+          "name": "Systems & Deployment",
+          "level": "Advanced",
+          "keywords": [
+            "Windows Server",
+            "Active Directory",
+            "DNS/DHCP",
+            "Azure Fundamentals",
+            "Production Support"
+          ]
+        },
+        {
+          "name": "Requirements & Collaboration",
+          "level": "Competent",
+          "keywords": [
+            "Requirements Gathering",
+            "User Requirement Discussion",
+            "Cross-Functional Communication",
+            "Technical Documentation",
+            "User Support"
+          ]
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "AI Agent Workflow & Model Orchestration Lab",
+      "startDate": "2026-07-01",
+      "endDate": "Present",
+      "description": "Personal experimentation environment for multi-model AI agents, tool-oriented workflows, and software-development task delegation.",
+      "highlights": [
+        "Configured and tested multi-model agent workflows using DeepSeek and OpenAI models, separating planning and coding roles for software-development tasks.",
+        "Experimented with prompt design, task delegation, model routing, agent tool use, and workflow orchestration across coding and technical-research scenarios.",
+        "Diagnosed AI API and environment issues including certificate/CA problems, model compatibility errors, and message-role serialization failures.",
+        "Ran the agent environment in a Linux virtual machine and iterated on workflow prompts, model assignments, and tool configuration based on observed failures."
+      ],
+      "url": ""
+    },
+    {
+      "name": "Internal Web Portal",
+      "startDate": "2023-01-01",
+      "endDate": "Present",
+      "description": "Internal web application for business data lookup, reporting, and administrative workflows.",
+      "highlights": [
+        "Built user-facing pages using Next.js, React, backend services, and database integrations.",
+        "Moved common data lookup into a web interface for 5 active users, reducing dependence on direct file or database access.",
+        "Deployed and maintained the application on IIS for internal company use.",
+        "Iterated on the application from real user feedback and recurring operational requirements."
+      ],
+      "url": ""
+    },
+    {
+      "name": "Haptic Grain",
+      "startDate": "2026-08-01",
+      "endDate": "Present",
+      "description": "Android prototype exploring configurable tactile texture for scrolling and swiping interactions on selected apps.",
+      "highlights": [
+        "Prototyping an Android application for real-device testing with configurable per-app haptic behavior.",
+        "Designing around interaction latency, background execution, battery consumption, and practical hardware constraints.",
+        "Exploring Android haptic APIs and app-selection workflows with performance and device behavior as primary design considerations."
+      ],
+      "url": ""
+    },
+    {
+      "name": "Internal Data Import Utility",
+      "startDate": "2023-01-01",
+      "endDate": "Present",
+      "description": "Internal tool that imports, validates, and prepares business data before submission or downstream processing.",
+      "highlights": [
+        "Turned repeated spreadsheet import steps into a guided process with validation and clearer output for 17 office users.",
+        "Added checks for missing, duplicated, and incorrectly formatted data before users process business records.",
+        "Standardized common import rules and review steps across 4 recurring workflows, reducing manual checking.",
+        "Reduced selected recurring workflows from manual preparation measured in minutes or hours to automated processing measured in seconds or minutes."
+      ],
+      "url": ""
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Microsoft Certified: Azure Fundamentals (AZ-900)",
+      "date": "2022-04-01",
+      "issuer": "Microsoft",
+      "url": ""
+    }
+  ],
+  "languages": [
+    {
+      "language": "Chinese",
+      "fluency": "Native",
+      "description": "Native language, used comfortably for workplace communication and daily life."
+    },
+    {
+      "language": "English",
+      "fluency": "Professional Proficiency",
+      "description": "Used for workplace communication, technical discussion, documentation, and collaboration."
+    },
+    {
+      "language": "Malay",
+      "fluency": "Conversational",
+      "description": "Used mainly for simple daily conversations."
+    }
+  ]
+}
